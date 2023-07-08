@@ -1,0 +1,159 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background-image: url('../images/banner/banner3.png');
+    width: 1600px;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.hrader-text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+
+}
+
+.header-btn {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin-right: 120px;
+    background-color: white;
+
+
+
+
+}
+
+.heading-titel {
+    font-size: 70px;
+    font-weight: 700;
+    margin-right: 120px;
+    margin-top: 170px;
+    color: white;
+}
+
+.heading-detils {
+    margin-left: 700px;
+    font-size: 30px;
+    color: white;
+    padding: 5px 50px 10px 50px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 130px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+
+.banner-img {
+    width: 451px;
+    height: 700px;
+    padding-left: 200px;
+}
+
+.descriotion-titel {
+    color: #151414;
+
+    font-size: 40px;
+
+    font-weight: 800;
+    line-height: normal;
+    width: 250px;
+
+}
+
+.banner-ditels {
+    color: #444343;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 300px;
+}
+
+.banner-list {
+    font-size: 16px;
+    height: 26px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-description {
+    padding-top: 80px;
+}
+
+.skill-titel {
+    text-align: center;
+    font-size: 70px;
+    width: 130;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 40px;
+}
+
+.icon {
+    width: 92.958px;
+    height: 92.958px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+h3 {
+    font-size: 15px;
+
+}
+
+/*Banner buttom*/
+.banner-buttom {
+    background-image: url('../images/watch.png'),
+     linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%) ;
+    margin: 130px;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+.buttomh1 {
+
+    color: #FFF;
+    
+    font-size: 35px;
+    
+    font-weight: 300;
+    
+    width: 700px;
+    padding-top: 35px;
+
+}
+
+.bottom-btn {
+    width: 90px;
+    height: 50px;
+    margin-left: 80px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(100, 100, 228);
+}
