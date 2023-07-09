@@ -1,12 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     font-family: 'Work Sans', sans-serif;
 }
 
 .header {
-    background-image: url('../images/banner/banner3.png');
-    width: 1600px;
+    /*background-image: url();*/
+    width: 2000px;
     height: 100vh;
+    background: cover ;
+    
+    background: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .hrader-text {
@@ -14,68 +22,73 @@ body {
     flex-direction: column;
     text-align: right;
     justify-content: center;
-
+    align-items: flex-end;
+    padding-top: 180px;
+    margin-top: 50px;
+    margin-left: auto;
 }
 
 .header-btn {
     width: 150px;
     height: 50px;
     float: right;
-    margin-right: 120px;
+    margin-right: 200px;
     background-color: white;
-
-
-
-
+    color: rgb(96, 96, 241);
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.header-btn:hover{
+    color: #FFF;
 }
 
 .heading-titel {
     font-size: 70px;
     font-weight: 700;
-    margin-right: 120px;
+    margin-right: 200px;
     margin-top: 170px;
     color: white;
+    text-align: right;
 }
 
 .heading-detils {
-    margin-left: 700px;
-    font-size: 30px;
-    color: white;
-    padding: 5px 50px 10px 50px;
+    margin-left: 1000px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;  
+    text-align: right;
+    margin-right:200px;
+    margin-top: 50px;
 }
 
 .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 150px;
     margin: 130px;
     padding: 0px;
-    background-color: antiquewhite;
+    
 }
 
 .banner-img {
-    width: 451px;
-    height: 700px;
+    width: 500px;
+    height: 750px;
     padding-left: 200px;
 }
 
 .descriotion-titel {
     color: #151414;
-
-    font-size: 40px;
-
-    font-weight: 800;
-    line-height: normal;
-    width: 250px;
+    font-size: 45px;
+    font-weight: 900;
+    width: 300px;
 
 }
 
 .banner-ditels {
     color: #444343;
-
     font-size: 16px;
-
     font-weight: 400;
     line-height: 26px;
     padding-right: 300px;
@@ -102,7 +115,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 30px;
-    margin: 40px;
+    margin:50px 130px 50px 130px;
 }
 
 .icon {
@@ -125,9 +138,9 @@ h3 {
 
 /*Banner buttom*/
 .banner-buttom {
-    background-image: url('../images/watch.png'),
-     linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%) ;
-    margin: 130px;
+    background-image: linear-gradient(90deg, rgba(255,0,0,0.5),rgba(0,255,0,0.5)), url(../images/watch.png) ;
+    margin-left: 190px;
+    margin-top: 100px; 
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
@@ -137,23 +150,107 @@ h3 {
     
 }
 
-.buttomh1 {
 
+.buttomh1 {
     color: #FFF;
-    
-    font-size: 35px;
-    
+    font-size: 45px;
     font-weight: 300;
-    
     width: 700px;
     padding-top: 35px;
+    padding-left: 70px;
 
 }
 
 .bottom-btn {
-    width: 90px;
+    width: 100px;
     height: 50px;
-    margin-left: 80px;
+    margin-left: 70px;
     border-radius: 5px 5px 5px 5px;
-    background-color: rgb(100, 100, 228);
+    background-color: rgb(255, 255, 255);
+    color: #eb7676;
+    margin-top: 30px;
+    cursor: pointer;
 }
+.bottom-btn:hover{
+    color: aliceblue;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151414;
+    margin-top: 30px;
+    gap: 50px;
+}
+.footer div{
+    
+    max-width: 400px;
+
+}
+.future-left-side{
+    text-align: left;
+    margin:30px  130px;
+
+}
+.future-titel{
+    text-align: left;
+    font-size: 60px;
+    color: #FFF;
+    
+}
+.futer-ditels{
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+   
+}
+.futer-ditels-email{
+    font-size: large;
+    color: #FFF;
+    margin-top: 10px
+    
+}
+.footer-sub{
+    color: #FFF;
+    font-size: 50px;
+}
+input{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #151414;
+    padding: 10px;
+    color: #FFF;
+    font-size: 20px;
+
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    gap: 30px;
+}
+.footrtbtn{
+    height: 60px;
+    width:130px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.footer-icon{
+    margin-top: 40px ;
+    padding-left: 10px;
+
+
+}
+.footrtbtn:hover{
+    color: #FFF;
+    
+}
+
+
